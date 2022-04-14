@@ -1,0 +1,39 @@
+body {
+    padding: 50px 100px;
+  }
+  h1 {
+    text-align: center;
+  }
+  #container {
+    text-align: center;
+    background-color: rgb(225, 225, 225);
+    padding: 40px 10px 40px 10px;
+  }
+  .input-div {
+    display: inline-block;
+  }
+  .input {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+  }
+  label {
+    font-size: 22px;
+    color: rgb(43, 0, 255);
+  }
+
+  body {
+    background: linear-gradient(to bottom, #ff512f, #dd2476);
+    height: 100vh;
+  }
+
+  @keyframes example {
+    from {
+      background: linear-gradient(to bottom, #ff512f, #dd2476);
+    }
+    to {
+      background: linear-gradient(to bottom, #dd2476, #ff512f);
+    }
+  }
